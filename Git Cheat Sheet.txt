@@ -132,3 +132,14 @@ git merge -s ours --no-commit repo1/master
 git read-tree --prefix=<subdir> -u repo1/master
 git commit
 That's it. Check "git log" to see if changes of repo1 appear.
+
+
+Set a Git username:
+
+git config --global user.name "Mona Lisa"
+Confirm that you have set the Git username correctly:
+
+git config --global user.name
+Mona Lisa
+
+git remote -v
